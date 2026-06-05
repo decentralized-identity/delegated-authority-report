@@ -19,9 +19,9 @@
 * Dmitri Zagudulin
 
 **Participate:**
-~ [GitHub repo](https://github.com/decentralized-identity/taa-delegatable-authorization-tf)
-~ [File a bug](https://github.com/decentralized-identity/taa-delegatable-authorization-tf/issues)
-~ [Commit history](https://github.com/decentralized-identity/taa-delegatable-authorization-tf/commits/main)
+~ [GitHub repo](https://github.com/decentralized-identity/delegated-authority-report)
+~ [File a bug](https://github.com/decentralized-identity/delegated-authority-report/issues)
+~ [Commit history](https://github.com/decentralized-identity/delegated-authority-report/commits/main)
 ~ [Working Group](https://identity.foundation/working-groups/trusted-agents.html)
 
 Except where otherwise noted, this work by the [Decentralized Identity Foundation](https://identity.foundation/) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).
@@ -519,15 +519,20 @@ In no particular order:
 3. Use Cases for Access Management, https://alanhkarp.com/UseCases.pdf, December 2025
 4. https://didcomm.org/signing/1.0/
 
-## Endnotes:
+## Endnotes
 
-[^1]: This aspect of sharing puts the delegator in control.  Either delegation is done by the delegator acting alone, for example by creating a new digital certificate, or by an automated component, as with token exchange, in a programmable way. 
-[^2]: https://spectrum.ieee.org/prompt-injection-attack
-[^3]: https://aiguide.substack.com/p/did-gpt-4-hire-and-then-lie-to-a
-[^4]: https://owenterry.xyz/writing/agents.html
+[^1]: 1. This aspect of sharing puts the delegator in control.  Either delegation is done by the delegator acting alone, for example by creating a new digital certificate, or by an automated component, as with token exchange, in a programmable way.
+
+[^2]: 2. https://spectrum.ieee.org/prompt-injection-attack
+
+[^3]: 3. https://aiguide.substack.com/p/did-gpt-4-hire-and-then-lie-to-a
+
+[^4]: 4. https://owenterry.xyz/writing/agents.html
 https://cloudsecurityalliance.org/blog/2025/03/11/agentic-ai-identity-management-approach
-[^5]: Cryptographers have started using the term “secret key” instead of “private key” to simplify the mathematical notation they use.
-[^6]: Answer: No install base.
+
+[^5]: 5. Cryptographers have started using the term “secret key” instead of “private key” to simplify the mathematical notation they use.
+
+[^6]: 6. Answer: No install base.
 
 ## Patent Policy
 
