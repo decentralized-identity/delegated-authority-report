@@ -27,10 +27,11 @@
 Except where otherwise noted, this work by the [Decentralized Identity Foundation](https://identity.foundation/) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).
 
 **Related Specifications:**
-~ Problem Space Report (You are here)
-~ [Threat Model](https://identity.foundation/delegated-authority-threat-model/)
-~ [Governance Considerations](https://identity.foundation/governance-of-delegated-authority-report/)
-~ [Agentic-Delegation User-Story Walk-through](https://www.youtube.com/watch?v=u-uWl_s0PPM%20)
+
+- Problem Space Report (You are here)
+- [Threat Model](https://identity.foundation/delegated-authority-threat-model/)
+- [Governance Considerations](https://identity.foundation/governance-of-delegated-authority-report/)
+- [Agentic-Delegation User-Story Walk-through](https://www.youtube.com/watch?v=u-uWl_s0PPM%20)
 
 ## Abstract
 
