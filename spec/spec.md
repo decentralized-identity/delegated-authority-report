@@ -26,6 +26,12 @@
 
 Except where otherwise noted, this work by the [Decentralized Identity Foundation](https://identity.foundation/) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).
 
+**Related Specifications:**
+
+~ Problem Space Report (You are here)
+~ [Threat Model](https://identity.foundation/delegated-authority-threat-model/)
+~ [Governance Considerations](https://identity.foundation/governance-of-delegated-authority-report/)
+
 ## Abstract
 
 add text here
@@ -55,7 +61,7 @@ In other words, we need *delegation*.
 What do we mean when we say we need to share?
 Marc Stiegler has identified seven aspects of sharing that we rely on in the physical world that our current online systems don’t fully support:
 
-1. **Dynamic**: It must be possible to delegate without undue delay.[^1]
+1. **Dynamic**: It must be possible to delegate without undue delay. [^1]
 2. **Attenuated**: You must be able to share part of your permissions.
 3. **Chained**: You must be able to delegate a delegated permission.
 4. **Composable**: You must be able to use delegations from different sources in the same request.
