@@ -1,11 +1,11 @@
 {
   "specs": [
     {
-      "title": "Spec-Up Example",
+      "title": "Delegated Authority Report",
       "spec_directory": "./spec",
       "output_path": "./",
       "logo": "logo.svg",
-      "logo_link": "https://github.com/decentralized-identity/spec-up",
+      "logo_link": "https://github.com/decentralized-identity/delegated-authority-report",
       "source": {
         "host": "github",
         "account": "decentralized-identity",
