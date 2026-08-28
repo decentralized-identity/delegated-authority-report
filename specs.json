@@ -5,7 +5,7 @@
       "spec_directory": "./spec",
       "output_path": "./",
       "logo": "logo.svg",
-      "logo_link": "https://github.com/decentralized-identity/delegated-authority-report",
+      "logo_link": "https://identity.foundation/working-groups/trusted-agents.html",
       "source": {
         "host": "github",
         "account": "decentralized-identity",
