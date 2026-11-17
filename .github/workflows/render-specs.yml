@@ -38,8 +38,7 @@ jobs:
         run: |
           rm -rf .site
           mkdir -p .site
-          cp index.html .site/index.html
-          cp -R v1.0-rc1 .site/v1.0-rc1
+          cp -R site/* .site/
           cp logo.svg .site/logo.svg
           cp -R assets .site/assets
           cp -R fonts .site/fonts

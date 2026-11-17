@@ -3,8 +3,8 @@
     {
       "title": "Delegated Authority Report",
       "spec_directory": "./spec",
-      "output_path": "./",
-      "logo": "logo.svg",
+      "output_path": "./site/",
+      "logo": "./logo.svg",
       "logo_link": "https://identity.foundation/working-groups/trusted-agents.html",
       "source": {
         "host": "github",
@@ -21,8 +21,8 @@
     {
       "title": "Delegated Authority Report v1.0-rc1",
       "spec_directory": "./spec/v1.0-rc1",
-      "output_path": "./v1.0-rc1/",
-      "logo": "/logo.svg",
+      "output_path": "./site/v1.0-rc1/",
+      "logo": "../logo.svg",
       "logo_link": "https://identity.foundation/working-groups/trusted-agents.html",
       "source": {
         "host": "github",
