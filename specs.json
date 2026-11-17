@@ -17,6 +17,24 @@
         }
       ],
       "katex": true
-    }
+    },
+    {
+      "title": "Delegated Authority Report v1.0-rc1",
+      "spec_directory": "./spec/v1.0-rc1",
+      "output_path": "./v1.0-rc1/",
+      "logo": "/logo.svg",
+      "logo_link": "https://identity.foundation/working-groups/trusted-agents.html",
+      "source": {
+        "host": "github",
+        "account": "decentralized-identity",
+        "repo": "delegated-authority-report"
+      },
+      "external_specs": [
+        {
+          "Governance": "https://identity.foundation/governance-of-delegated-authority-report"
+        }
+      ],
+      "katex": true
+    }    
   ]
 }

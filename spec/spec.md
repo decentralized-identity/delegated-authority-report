@@ -1,4 +1,4 @@
-# Delegated Authority Problem Space Report v1.0-rc1
+# Delegated Authority Problem Space Report v1.0 Preview
 
 **Specification Status:** Working Group Consensus Draft (Pending DIF Steering Committee Approval)
 
@@ -6,6 +6,8 @@
 [identity.foundation/delegated-authority-report](https://identity.foundation/delegated-authority-report)
 
 **Ratified Versions:**
+
+* [v1.0-rc1](/v1.0-rc1/): Working Group consensus, 17 November 2026
 
 **Editors:**
 
@@ -49,7 +51,6 @@ Similarly, we also present some [Governance Considerations](https://identity.fou
 * [Governance Considerations](https://identity.foundation/governance-of-delegated-authority-report/)
 * [Agentic-Delegation User-Story Walk-through](https://www.youtube.com/watch?v=u-uWl_s0PPM%20)
 
-
 ## Status of This Document
 
 This is a draft specification being developed within the
@@ -90,7 +91,7 @@ That starting point will open the possibility of digital mechanisms that cover a
 
 ## Problem Statement: Delegation versus Agency
 
-### What breaks when authority must cross heterogeneous systems.
+### What breaks when authority must cross heterogeneous systems
 
 Once it became clear that sharing was important, our systems added mechanisms to support it. A delegation consisted of changing an entry in Alice’s Access Control List (ACL) to give Bob permission to read, but not write, a particular file, for example.
 Call it “a.c” for historical reasons.
@@ -149,12 +150,11 @@ Only the one who gave the agent its task, or perhaps the providers of the model 
 
 ## Authority Continuity and Intent
 
-### Delegation as a continuation property, not a transferable object.
+### Delegation as a continuation property, not a transferable object
 
 Say there is a night club that only admits people who know their own specific secret code.
 You would like your friend Alice to be able to go to the club when you can’t, so you tell her your code.
 Alice can now enter the club by herself.
-
 
 That is a pretty limited form of“delegation” for two reasons, and cannot accommodate all seven of the properties of real-world sharing enumerated above.
 First, you can’t revoke your friend’s access without revoking your own
@@ -202,7 +202,7 @@ The problem is mitigated by having the agent ask only for preplanned or particul
 
 ## Execution Boundaries and Verification
 
-### Where verification must occur when no single system is authoritative.
+### Where verification must occur when no single system is authoritative
 
 An access control system needs a way to decide if a request is authorized.
 Since it’s critical for security, the verifier, the component that makes that decision, must be trusted by the organization that owns the resources being accessed.
@@ -444,7 +444,6 @@ An alternative to relying on a global standard is to form a federation of organi
 Federating identities isn’t necessary with an authorization-centric approach, but federating policy makes sense.
 Each organization can use its own policy system internally but agrees to use one common to the federation when dealing with others.
 
-
 Global standards are the common approach when the environment is decentralized.
 Defining these standards can be highly political, as companies try to introduce features that give them a competitive advantage.
 The resulting battles make the standards process slow.
@@ -500,11 +499,11 @@ Creating ACL entries for agents as they come into existence and disappear at a h
 Instead, the MCP server is likely to rely on a longer lived identity, such as that of the user who issued the prompt.
 Can we do better?
 
-### Areas for prototyping and comparison.
+### Areas for prototyping and comparison
 
 Basic delegation:
 Pick a delegation technology and use case.
-Demonstrate program to agent, agent to agent, and agent to program delegation, both with and without human-in-the-loop. 
+Demonstrate program to agent, agent to agent, and agent to program delegation, both with and without human-in-the-loop.
 
 MCP: Build an agent that accesses an MCP server assuming a long-lived identity for the agent.
 Repeat for one with a short life.
@@ -570,13 +569,13 @@ Answer: No install base.
 
 The Decentralized Identity Foundation has adopted the W3C Patent Policy (2004), as detailed below:
 
-- **Licensing Commitment.** Each contributor agrees to make available any of its
+* **Licensing Commitment.** Each contributor agrees to make available any of its
   Essential Claims, as defined in the W3C Patent Policy (available at
   http://www.w3.org/Consortium/Patent-Policy-20040205), under the W3C RF licensing
   requirements Section 5 (http://www.w3.org/Consortium/Patent-Policy-20040205), as
   if the contribution was contained in or associated with a W3C Recommendation.
 
-- **For Exclusion.** Prior to committing any code, bug reports, pull requests, or
+* **For Exclusion.** Prior to committing any code, bug reports, pull requests, or
   other forms of contribution, a contributor may exclude Essential Claims from its
   licensing commitments under this agreement by providing written notice of that
   intent to DIF's Executive Director (and must received confirmation of receipt
