@@ -1,6 +1,6 @@
-# Delegated Authority Problem Space Report v0.1 Editor's Draft
+# Delegated Authority Problem Space Report v1.0-rc1
 
-**Specification Status:** Pre-Draft
+**Specification Status:** Working Group Consensus Draft (Pending DIF Steering Committee Approval)
 
 **Latest Draft:**
 [identity.foundation/delegated-authority-report](https://identity.foundation/delegated-authority-report)
@@ -9,16 +9,17 @@
 
 **Editors:**
 
-* Alan Karp (@alanhkarp)
+* Alan Karp ([SitePassword](https://github.com/alanhkarp/SitePassword/))
 
 **Authors:**
 
-* Debbie Bucci
-* Juan Caballero
-* Alex Kreisner
-* Dmitri Zagudulin
+* Debbie Bucci ([Deb B Labs](https://docs.google.com/document/d/e/2PACX-1vQoFsZd-vSLZ0nr278sQ4t2UBK3-zrVFi1yt-uhM4u47_gOIL2LP4dd6SGEXkMBlL5dWwv08Nx9IIr4/pub))
+* Juan Caballero ([learningProof UG](https://learningproof.xyz/))
+* Alex Kreisner ([VouchedID](https://www.vouched.id/))
+* Dmitri Zagudulin ([Interop Alliance](http://interopalliance.org/))
 
 **Participate:**
+
 ~ [GitHub repo](https://github.com/decentralized-identity/delegated-authority-report)
 ~ [File a bug](https://github.com/decentralized-identity/delegated-authority-report/issues)
 ~ [Commit history](https://github.com/decentralized-identity/delegated-authority-report/commits/main)
@@ -26,17 +27,28 @@
 
 Except where otherwise noted, this work by the [Decentralized Identity Foundation](https://identity.foundation/) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).
 
-**Related Specifications:**
-
-- Problem Space Report (You are here)
-- [Specification Evaluations](https://identity.foundation/delegated-authority-evaluations)
-- [Threat Model](https://identity.foundation/delegated-authority-threat-model/)
-- [Governance Considerations](https://identity.foundation/governance-of-delegated-authority-report/)
-- [Agentic-Delegation User-Story Walk-through](https://www.youtube.com/watch?v=u-uWl_s0PPM%20)
-
 ## Abstract
 
-add text here
+In 2026, the [Trusted AI Agents Working Group](https://identity.foundation/working-groups/trusted-agents.html) at the Decentralized Identity Foundation set out to map the territory of agentic security and information flows, not wholistically or exhaustively but with a laser focus on what we felt was the headwaters from which all agentic informational security problems flow: delegated authority.
+Our intuition was that applying a capability-focused approach to authority, we could approach with fresh eyes what needs to be observable and loggable about the harnessing of, and delegation of authorities to, [sub-]agents.
+
+Decomposing the widely-recognized problems of "agentic identity" into problems of opaque delegation, confused deputies, and over-delegation, we reframed the problem to be less about what is known and observable in the agent as a static entity, and more about what is known and observable about the marching orders delegated to it, and the [often implicit] mandate circumscribing its actions.
+Focusing on legitimate authority imperfectly delegated, we created a "scorecard" for delegation characteristics of different approaches to agentic delegation in complex cross-organizational usecases.
+
+This "scorecard" gets summarized and operationalized as an evaluative rubric in the accompanying [Specification Evaluations](https://identity.foundation/delegated-authority-evaluations) document. This longer, synoptic but not exhaustive report will likely be out-of-date within months of being released, and as such, we expect to keep iterating and expanding it over time, leading to its being separately versioned.
+
+In light of these hopefully apples-to-apples evaluations and the broader context of mounting agentic cybersecurities concerns, we complemented these evaluations with a preliminary [Threat Model](https://identity.foundation/delegated-authority-threat-model/).
+The intended utility of this document is to guide architects and governers of complex agentic systems in evaluating their security and liabilities end-to-end through the lens of this framework.
+Similarly, we also present some [Governance Considerations](https://identity.foundation/governance-of-delegated-authority-report/) that can guide architects and governers, particularly of federations, in naming all the decisions and liabilities shared across organizations when agents, not humans, are criss-crossing their boundaries moving information and resources around.
+
+### Related Specifications
+
+* Problem Space Report (You are here)
+* [Specification Evaluations](https://identity.foundation/delegated-authority-evaluations)
+* [Threat Model](https://identity.foundation/delegated-authority-threat-model/)
+* [Governance Considerations](https://identity.foundation/governance-of-delegated-authority-report/)
+* [Agentic-Delegation User-Story Walk-through](https://www.youtube.com/watch?v=u-uWl_s0PPM%20)
+
 
 ## Status of This Document
 
