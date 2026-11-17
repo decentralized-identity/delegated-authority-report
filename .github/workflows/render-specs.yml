@@ -39,7 +39,7 @@ jobs:
           rm -rf .site
           mkdir -p .site
           cp index.html .site/index.html
-          cp v1.0-rc1 .site/v1.0-rc1
+          cp -R v1.0-rc1 .site/v1.0-rc1
           cp logo.svg .site/logo.svg
           cp -R assets .site/assets
           cp -R fonts .site/fonts
