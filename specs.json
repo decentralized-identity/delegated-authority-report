@@ -22,7 +22,7 @@
       "title": "Delegated Authority Report v1.0-rc1",
       "spec_directory": "./spec/v1.0-rc1",
       "output_path": "./site/v1.0-rc1/",
-      "logo": "./logo.svg",
+      "logo": "../logo.svg",
       "logo_link": "https://identity.foundation/working-groups/trusted-agents.html",
       "source": {
         "host": "github",
