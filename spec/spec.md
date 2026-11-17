@@ -7,7 +7,7 @@
 
 **Ratified Versions:**
 
-* [v1.0-rc1](/v1.0-rc1/): Working Group consensus, 17 November 2026
+* [v1.0-rc1](./v1.0-rc1/): Working Group consensus, 17 November 2026
 
 **Editors:**
 
