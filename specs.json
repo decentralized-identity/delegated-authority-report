@@ -1,7 +1,7 @@
 {
   "specs": [
     {
-      "title": "Delegated Authority Report",
+      "title": "Delegated Authority Report v1.0 Preview",
       "spec_directory": "./spec",
       "output_path": "./site/",
       "logo": "./logo.svg",
